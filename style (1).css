@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+body{
+  margin:0;
+  padding:40px;
+  background:
+    radial-gradient(circle at center, #3a2d20, #1a1410);
+  font-family:'Cormorant Garamond', serif;
+}
+
+.livro{
+  max-width:900px;
+  margin:auto;
+}
+
+.pagina{
+  background:#e7d8b2;
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,.08),
+      rgba(0,0,0,.03)
+    );
+  padding:50px;
+  margin-bottom:40px;
+  border:8px solid #5b4325;
+  border-radius:8px;
+  box-shadow:
+    0 0 25px rgba(0,0,0,.5),
+    inset 0 0 40px rgba(90,60,20,.15);
+  position:relative;
+}
+
+.pagina::before{
+  content:"✦";
+  position:absolute;
+  top:15px;
+  left:20px;
+  font-size:22px;
+  color:#6b4d2a;
+}
+
+.pagina::after{
+  content:"✦";
+  position:absolute;
+  bottom:15px;
+  right:20px;
+  font-size:22px;
+  color:#6b4d2a;
+}
+
+.capa{
+  text-align:center;
+  padding:120px 50px;
+}
+
+.capa h1{
+  font-family:'Cinzel', serif;
+  font-size:clamp(28px, 6vw, 60px);
+  letter-spacing:4px;
+  color:#3d2815;
+  margin-bottom:10px;
+
+}
+
+.capa p{
+  font-size:24px;
+  color:#5b4325;
+}
+
+h2{
+  font-family:'Cinzel', serif;
+  text-align:center;
+  color:#3d2815;
+  font-size:34px;
+  border-bottom:2px solid #8d6b3f;
+  padding-bottom:10px;
+}
+
+.ilustracao{
+  height:320px;
+  margin:30px 0;
+  border:3px dashed #7d5d37;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-style:italic;
+  color:#5f4a2f;
+  background:rgba(255,255,255,.15);
+}
+
+.campo{
+  margin:18px 0;
+  font-size:22px;
+  color:#2c1d10;
+  line-height:1.5;
+}
+
+strong{
+  color:#4d2e16;
+}
+
+.simbolo{
+  font-size:80px;
+  margin-bottom:20px;
+}
+
+.linha{
+  width:250px;
+  height:2px;
+  background:#7d5d37;
+  margin:20px auto;
+}
+
+.capa p{
+  max-width:500px;
+  margin:auto;
+  font-size:28px;
+}
