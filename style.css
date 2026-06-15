@@ -129,8 +129,9 @@ strong{
   display: block;
   margin: 0 auto;
 }
-<div class="ilustracao">
-  <img src="https://i.ibb.co/CKKc3SzW/file-00000000c6d8720eafb4e4e7fccbcc25.png"
-       alt="Sangre-Férrea"
-       style="width:150px !important; max-width:250px !important; height:auto !important;">
-</div>
+.ilustracao img{
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
