@@ -124,14 +124,8 @@ strong{
 
 .ilustracao img{
   width: 100%;
-  max-width: 350px;
+  max-width: 340px;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-.ilustracao img{
-  width: 350px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
+
